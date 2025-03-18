@@ -63,4 +63,4 @@ Feel free to fork the repository and submit pull requests to improve the project
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](https://github.com/Shellyda/linebus-database/tree/main?tab=MIT-1-ov-file).
