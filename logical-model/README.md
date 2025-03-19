@@ -1,4 +1,4 @@
-## Logical Model
+### Modelo Lógico:
 
 #### Empresa(<u>CNPJ</u>, Nome, end_CEP, end_num, end_rua)
 
@@ -26,8 +26,8 @@
 - #### CHASSI -> Onibus(CHASSI)
 - #### Cod -> Viagem(Cod)
 - #### CPF -> Motorista(CPF)
-- #### AK1 [Data, CPF]
-- #### AK2 [Data, CHASSI]
+- #### [Data, CPF]
+- #### [Data, CHASSI]
 
 #### Manutencao(<u>CHASSI, Cod</u>)
 
