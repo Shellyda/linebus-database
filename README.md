@@ -53,17 +53,17 @@ The project is structured into three essential stages:
    ```
 3. Execute theses SQL scripts in your preferred DBMS:
 
-**Create database:**
+   **Create database:**
 
-```sh
-psql -U user -d database -f physical-model/create_database.sql
-```
+   ```sh
+   psql -U user -d database -f physical-model/create_database.sql
+   ```
 
-**Populate database:**
+   **Populate database:**
 
-```sh
-psql -U user -d database -f physical-model/populate_database.sql
-```
+   ```sh
+   psql -U user -d database -f physical-model/populate_database.sql
+   ```
 
 ## Contributing
 
