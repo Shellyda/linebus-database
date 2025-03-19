@@ -55,7 +55,7 @@
     </nodes>
     <nodes xmi:type="eer:Relationship" xmi:id="_Z-vAkATEEfCIXbb72CQfSQ" name="Gera" relationshipLink="_Z-5_sATEEfCIXbb72CQfSQ _jIbI8ATEEfCIXbb72CQfSQ"/>
     <nodes xmi:type="eer:Entity" xmi:id="_feMS4ATEEfCIXbb72CQfSQ" name="Inspeção" AttributeLinkSource="_kYxWgATEEfCIXbb72CQfSQ _rJeOQATEEfCIXbb72CQfSQ" relationshipLink="_jIbI8ATEEfCIXbb72CQfSQ"/>
-    <nodes xmi:type="eer:Attribute" xmi:id="_kYlwUATEEfCIXbb72CQfSQ" name="COD" type="IDENTIFIER" AttributeLinkTarget="_kYxWgATEEfCIXbb72CQfSQ"/>
+    <nodes xmi:type="eer:Attribute" xmi:id="_kYlwUATEEfCIXbb72CQfSQ" name="NUM" type="IDENTIFIER" AttributeLinkTarget="_kYxWgATEEfCIXbb72CQfSQ"/>
     <nodes xmi:type="eer:Attribute" xmi:id="_rJZ80ATEEfCIXbb72CQfSQ" name="Tipo" AttributeLinkTarget="_rJeOQATEEfCIXbb72CQfSQ"/>
     <links xmi:type="eer:RelationshipLink" xmi:id="_k8cDYO-_Ee-pod7jlQhssA" source="_HdrjgO-4Ee-pod7jlQhssA" target="_NarCMO-_Ee-pod7jlQhssA" role="Supervisor"/>
     <links xmi:type="eer:RelationshipLink" xmi:id="_orwNwO-_Ee-pod7jlQhssA" source="_HdrjgO-4Ee-pod7jlQhssA" target="_NarCMO-_Ee-pod7jlQhssA" cardinality="MANY" role="Subordinado"/>
