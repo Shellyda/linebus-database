@@ -52,12 +52,18 @@ The project is structured into three essential stages:
    cd linebus-database
    ```
 3. Execute theses SQL scripts in your preferred DBMS:
-   ```sh
-   psql -U user -d database -f physical-model/create_database.sql
-   ```
-   ```sh
-   psql -U user -d database -f physical-model/populate_database.sql
-   ```
+
+**Create database:**
+
+```sh
+psql -U user -d database -f physical-model/create_database.sql
+```
+
+**Populate database:**
+
+```sh
+psql -U user -d database -f physical-model/populate_database.sql
+```
 
 ## Contributing
 
