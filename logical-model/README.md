@@ -1,4 +1,4 @@
-### Modelo Lógico:
+### Logical Model
 
 #### Empresa(<u>CNPJ</u>, Nome, end_CEP, end_num, end_rua)
 
@@ -19,37 +19,36 @@
 
 #### Onibus(<u>CHASSI</u>, Empresa)
 
-#### Viagem(<u>Cod</u>, Linha, Origem, Destino)
+#### Viagem(<u>COD</u>, Linha, Origem, Destino)
 
-#### Conduz(<u>CHASSI, CPF, Cod, Data</u>)
+#### Conduz(<u>CHASSI, CPF, COD, Data</u>)
 
 - #### CHASSI -> Onibus(CHASSI)
-- #### Cod -> Viagem(Cod)
+- #### COD -> Viagem(COD)
 - #### CPF -> Motorista(CPF)
 - #### [Data, CPF]
 - #### [Data, CHASSI]
 
-#### Manutencao(<u>CHASSI, Cod</u>)
+#### Manutencao(<u>CHASSI, COD</u>)
 
 - #### CHASSI -> Onibus(CHASSI)
 
 #### Oficina(<u>ID</u>)
 
-#### Acontece(<u>(CHASSI, Cod), ID</u>)
+#### Inspecao(<u>NUM</u>, Tipo)
 
-- #### (CHASSI, Cod) -> Manutencao((CHASSI, Cod))
+#### Acontece(<u>(CHASSI, COD), ID</u>, NUM)
+
+- #### (CHASSI, COD) -> Manutencao((CHASSI, COD))
 - #### ID -> Oficina(ID)
-
-#### Passagem(<u>Num</u>, DataEmissao, Preco, PrecoFinal, Cod!)
-
-- #### Cod -> Viagem(Cod)
+- #### NUM -> Inspecao(NUM)
 
 #### Passageiro(<u>CPF</u>, Nome)
 
-#### Desconto(<u>ID</u>, taxa)
+#### Desconto(<u>ID</u>, Taxa)
 
-#### Compra(<u>Num</u>, CPF!, ID)
+#### Passagem(<u>Num</u>, DataEmissao, Preco, PrecoFinal, COD!, CPF, ID)
 
-- #### Num -> Passagem(Num)
+- #### COD -> Viagem(COD)
 - #### CPF -> Passageiro(CPF)
 - #### ID -> Desconto(ID)

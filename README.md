@@ -38,7 +38,6 @@ The project is structured into three essential stages:
 
 ## Technologies Used
 
-- **Database Management System**: \_
 - **Diagram Tools**: [EERCASE](https://sites.google.com/a/cin.ufpe.br/eercase)
 - **SQL**: DDL (Data Definition Language), DML (Data Manipulation Language)
 
@@ -52,9 +51,18 @@ The project is structured into three essential stages:
    ```sh
    cd linebus-database
    ```
-3. Execute the SQL scripts in your preferred DBMS:
+3. Execute theses SQL scripts in your preferred DBMS:
+
+   **Create database:**
+
    ```sh
    psql -U user -d database -f physical-model/create_database.sql
+   ```
+
+   **Populate database:**
+
+   ```sh
+   psql -U user -d database -f physical-model/populate_database.sql
    ```
 
 ## Contributing
