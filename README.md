@@ -45,7 +45,7 @@ The project is structured into three essential stages:
 
 1. Clone this repository:
    ```sh
-   git clone https://github.com/Shellyda/linebus-database.git
+   git clone https://github.com/Shellyda/project-design-database.git
    ```
 2. Navigate to the project directory:
    ```sh
