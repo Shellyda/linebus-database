@@ -49,7 +49,7 @@ The project is structured into three essential stages:
    ```
 2. Navigate to the project directory:
    ```sh
-   cd linebus-database
+   cd project-design-database
    ```
 3. Execute theses SQL scripts in your preferred DBMS:
 
